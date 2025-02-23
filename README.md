@@ -12,13 +12,11 @@ Qiangxiao Zhou, Yiheng Wang, Hai Xiong and Long Cheng
 
 ## File description:  The folder contains three files
 
-exp_IRs_data.mat    : The source data collected by industrial robots is explained as follows.
+exp_IRs_data_split    : It includes all the data collected by industrial robots. 
 
 load_and_preprocess_data.py     : Help you load and process data. (Processing the data into a dataset that the neural network can use)
 
-process_IRs_daat.npz       : The processed data. (The dataset that the neural network can use)
-
-
+Note: Due to the github platform's maximum file size, we split the data file into several parts, and you need to run the meger.py code to combine the data before using it. When you merge, you will get exp_IRs_data.mat, which contains the complete data. The instructions for using the data are explained below.
 
 ## exp_IRs_data.mat
 
