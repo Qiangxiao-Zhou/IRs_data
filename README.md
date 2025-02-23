@@ -6,7 +6,7 @@ Look at the paper for more details.
 If you found any problem, please communicate it at:
 q.x.zhou.work@gmail.com
 
-The Authors
+The Authors:
 Qiangxiao Zhou, Yiheng Wang, Hai Xiong and Long Cheng
 
 
