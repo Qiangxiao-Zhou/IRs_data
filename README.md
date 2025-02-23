@@ -31,16 +31,15 @@ Each groups of data consists of 100 paths,  including 50 pairs of back and forth
 
 
 
-**DATA                SIZE        MEASUREMENT UNIT**
-                                                
-
-- motions.simulation_start_config		[1,1]   	[°] 
-- motions.simulation_goal_config		[1,1]   	[°] 
-- motions.simulation_vel_parameters		[1,1]		[%]
-- motions.simulation_acc_parameters	[1,1]		[%]
-- motions.simulation_joint_position		[100,6]	 [°]
-- motions.simulation_joint_velocity		[100,6]	 [°/s]
-- motions.simulation_joint_acceleration	[100,6]	[°/s^2]
+**| DATA     |  SIZE     |   MEASUREMENT UNIT|**
+ |---- | ---- | ---- | 
+| motions.simulation_start_config	|	[1,1]  | 	[°] |
+| motions.simulation_goal_config	|	[1,1]  | 	[°] |
+| motions.simulation_vel_parameters	|	[1,1]	|	[%] |
+| motions.simulation_acc_parameters	 | [1,1]	|	[%] |
+| motions.simulation_joint_position	 |	[100,6]	| [°] |
+| motions.simulation_joint_velocity	|	[100,6]	| [°/s] |
+| motions.simulation_joint_acceleration	| [100,6] |	[°/s^2] |
 - motions.simulation_joint_time			[100,1]	[s]
 - motions.measured_active_power		[n,1]		[W]
 - motions.measured_reactive_power		[n,1]		[Var]
