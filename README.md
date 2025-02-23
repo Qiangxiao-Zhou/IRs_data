@@ -29,13 +29,9 @@ Speed and acceleration are set to four grades, which are [100,75,50,25] % of the
 
 Each groups of data consists of 100 paths,  including 50 pairs of back and forth paths.
 
-| 姓名 | 数学成绩 | 语文成绩 | 英语成绩 |
-| ---- | ---- | ---- | ---- |
-| 张三 | 90 | 85 | 88 |
-| 李四 | 78 | 92 | 80 |
-| 王五 | 85 | 88 | 91 |
 
-**| DATA     |  SIZE     |   MEASUREMENT UNIT|**
+
+| **DATA  **   |  **SIZE  **   |  ** MEASUREMENT UNIT** |
  |---- | ---- | ---- | 
 | motions.simulation_start_config	|	[1,1]  | 	[°] |
 | motions.simulation_goal_config	|	[1,1]  | 	[°] |
