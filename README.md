@@ -31,7 +31,7 @@ Each groups of data consists of 100 paths,  including 50 pairs of back and forth
 
 
 
-| **DATA  **   |  **SIZE  **   |  ** MEASUREMENT UNIT** |
+| DATA     |  SIZE    |   MEASUREMENT UNIT |
  |---- | ---- | ---- | 
 | motions.simulation_start_config	|	[1,1]  | 	[°] |
 | motions.simulation_goal_config	|	[1,1]  | 	[°] |
@@ -40,19 +40,19 @@ Each groups of data consists of 100 paths,  including 50 pairs of back and forth
 | motions.simulation_joint_position	 |	[100,6]	| [°] |
 | motions.simulation_joint_velocity	|	[100,6]	| [°/s] |
 | motions.simulation_joint_acceleration	| [100,6] |	[°/s^2] |
-- motions.simulation_joint_time			[100,1]	[s]
-- motions.measured_active_power		[n,1]		[W]
-- motions.measured_reactive_power		[n,1]		[Var]
-- motions.measured_apparent_power	[n,1]		[VA]
-- motions.measured_voltage			[n,1]		[V]
-- motions.measured_current			[n,1]		[A]
-- motions.measured_timestamps		[n,1]		[ns]
-- motions.measured_time				[n,1]		[s]
-- motions.measured_IRs_position			[n,6]		[°]
-- motions.measured_IRs_velocity			[n,6]		[°/s]
-- motions.measured_IRs_acceleration	[n,6]		[°/s^2]
-- motions.time_start_timestamp			[1,1]		[ns]
-- motionstime_end_timestamp			[1,1]		[ns]
+| motions.simulation_joint_time		|	[100,1] |	[s] |
+| motions.measured_active_power	|	[n,1] |		[W] |
+| motions.measured_reactive_power	|	[n,1]	|	[Var] |
+| motions.measured_apparent_power |	[n,1]	|	[VA] |
+| motions.measured_voltage	|		[n,1]	|	[V] | 
+| motions.measured_current |			[n,1] |		[A] |
+| motions.measured_timestamps	|	[n,1]	|	[ns] |
+| motions.measured_time	|			[n,1]	|	[s] |
+| motions.measured_IRs_position	|		[n,6] |		[°] |
+| motions.measured_IRs_velocity	|		[n,6] |		[°/s] |
+| motions.measured_IRs_acceleration |	[n,6]	|	[°/s^2] |
+| motions.time_start_timestamp	|		[1,1] |		[ns] |
+| motionstime_end_timestamp		|	[1,1]	 |	[ns] |
 
 
 
