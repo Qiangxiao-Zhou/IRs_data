@@ -16,6 +16,8 @@ exp_IRs_data_split    : It includes all the data collected by industrial robots.
 
 load_and_preprocess_data.py     : Help you load and process data. (Processing the data into a dataset that the neural network can use)
 
+README.md     : Introduce this data set.
+
 Note: Due to the github platform's maximum file size, we split the data file into several parts, and you need to run the meger.py code to combine the data before using it. When you merge, you will get exp_IRs_data.mat, which contains the complete data. The instructions for using the data are explained below.
 
 ## exp_IRs_data.mat
