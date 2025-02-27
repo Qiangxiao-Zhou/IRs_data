@@ -1,7 +1,7 @@
 ﻿
 # **The files in this folder are related to the paper:"Energy Consumption Modeling for Industrial Robots: A Dual-Stage Coupled Framework with Error Compensation Mechanism".**
 
-Look at the paper for more details.
+Look at the paper for more details. Link: 
 
 If you found any problem, please communicate it at:
 q.x.zhou.work@gmail.com
