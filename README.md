@@ -52,7 +52,7 @@ Each groups of data consists of 100 paths,  including 50 pairs of back and forth
 | motions.measured_IRs_velocity	|		[n,6] |		[°/s] |
 | motions.measured_IRs_acceleration |	[n,6]	|	[°/s^2] |
 | motions.time_start_timestamp	|		[1,1] |		[ns] |
-| motionstime_end_timestamp		|	[1,1]	 |	[ns] |
+| motions.time_end_timestamp		|	[1,1]	 |	[ns] |
 
 
 
