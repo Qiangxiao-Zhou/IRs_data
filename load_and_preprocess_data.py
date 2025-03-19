@@ -26,7 +26,7 @@ for i in range(16):
         path_data = motion_data[path_name][0, 0]
 
         #load data
-        test_active_power = path_data['measured_active_power']
+        test_power = path_data['measured_apparent_power']
         test_time = path_data['measured_time']
         test_timestamps = path_data['measured_timestamps']
 
@@ -47,7 +47,7 @@ for i in range(16):
         end_index = test_time_series[test_time_series == end_time_scalar].index[0]
 
         # Intercept the valid part
-        selected_active_power = test_active_power[start_index:end_index + 1, :]
+        selected_power = test_power[start_index:end_index + 1, :]
         selected_time = test_time[start_index:end_index + 1, :]
         selected_time = selected_time - selected_time[0, 0]
         selected_test_position = test_position[start_index:end_index + 1, :]
@@ -58,14 +58,14 @@ for i in range(16):
         # Calculate total energy consumption
         selected_time = selected_time.flatten()
         time_differences = np.diff(selected_time)
-        average_power = (selected_active_power[:-1] + selected_active_power[1:]) / 2
+        average_power = (selected_power[:-1] + selected_power[1:]) / 2
         average_power = average_power.flatten()
         total_energy_consumption = np.sum(average_power * time_differences)
 
 
         # Save effective length
         actual_lengths_X.append(len(selected_time))
-        actual_lengths_Y.append(len(selected_active_power))
+        actual_lengths_Y.append(len(selected_power))
 
         
         features = np.concatenate([selected_test_position,selected_test_velocity,
@@ -73,7 +73,7 @@ for i in range(16):
 
         # Add to data set
         X.append(features)
-        Y.append(selected_active_power)
+        Y.append(selected_power)
         Z.append(total_energy_consumption)
 
 
